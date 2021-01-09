@@ -1,1 +1,18 @@
 # GodelHashes
+
+By definition, a Godel Hash is when you take a symbol, char, or string, and convert it to a prime number.
+Once a collection of symbols, chars, or strings is produced, a Godel Hash converts each element into a unique prime number.  From there, the product is taken.
+The cool thing about Godel Hash is that to uncompress, all there is to do is to take the prime factors of the product.
+Because of this, Godel Hashes are only partial-order preserving.
+
+
+For this project, I created two ways of creating Godel Hashes, and initially, even a third.  I originally had four nested for loops, which hurt my soul a little bit,
+but I knew that method worked, and I used to it check me work.  I switched over to only using 2 for loops, and decided to map out the rest. This made the code
+not only more efficient, but a lot more dynamic as well. In efforts to get rid of more for loops, I decided to implement another version of this project with
+recursion.  It is only marginally faster than the looping version.
+
+# DISCLAIMER
+
+The recursive file only prints out the result, the dictionary is not stored as a variable.  When trying to return the dictionary from the recursive function,
+I kept getting a NoneType instead a dictionary. Despite my efforts, I couldn't find a solution. The way it is works, but the information cannot be maninpulated
+as easily as it can in the other version.
