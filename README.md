@@ -11,7 +11,7 @@ but I knew that method worked, and I used to it check me work.  I switched over 
 not only more efficient, but a lot more dynamic as well. In efforts to get rid of more for loops, I decided to implement another version of this project with
 recursion.  It is only marginally faster than the looping version.
 
-# DISCLAIMER
+# Small Warning
 
 The recursive file only prints out the result, the dictionary is not stored as a variable.  When trying to return the dictionary from the recursive function,
 I kept getting a NoneType instead a dictionary. Despite my efforts, I couldn't find a solution. The way it is works, but the information cannot be maninpulated
