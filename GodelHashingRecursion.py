@@ -26,13 +26,14 @@ def repOrNoRep(dict,x,permLength):
     if x: return product(dict,repeat=permLength) #This produces all permutations with repetitions
     return permutations(dict) #This produces all permutations without repetitions
 
-def recur(start,end,nD,repOrNo):
+def recur(start,end,d,nD,repOrNo):
     if start > end:
         list(map(lambda x:print('{:16}'.format(x),'{:>6}'.format(nD[x])),dict(sorted(nD.items(),key=lambda x:x[1]))))
     else:
         for names in [c for c in repOrNoRep(d,repOrNo,start)]:
             nD[(''.join(list(map(lambda i:names[i],range(start)))))]=prod(list(map(lambda i:d[names[i]],range(start))))
-        recur(start+1,end,nD,repOrNo)
+        recur(start+1,end,d,nD,repOrNo)
 
-recur(1,4,newD,True) #args= start, end, dictionary, with or without repetitions
+                #IF FALSE, MAX END = LENGTH OF ORIGINAL DICTIONARY
+recur(1,4,d,newD,False) #args= start, end, original dictionary, outputted dictionary, with or without repetitions
 
