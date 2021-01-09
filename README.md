@@ -2,7 +2,7 @@
 
 By definition, a Godel Hash is when you take a symbol, char, or string, and convert it to a prime number.
 Once a collection of symbols, chars, or strings is produced, a Godel Hash converts each element into a unique prime number.  From there, the product is taken.
-The cool thing about Godel Hash is that to uncompress, all there is to do is to take the prime factors of the product.
+The cool thing about Godel Hashes are that to uncompress the end result, all there is to do is to take the prime factors of the product.
 Because of this, Godel Hashes are only partial-order preserving.
 
 
