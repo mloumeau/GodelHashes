@@ -14,5 +14,5 @@ recursion.  It is only marginally faster than the looping version.
 # Small Warning
 
 The recursive file only prints out the result, the dictionary is not stored as a variable.  When trying to return the dictionary from the recursive function,
-I kept getting a NoneType instead a dictionary. Despite my efforts, I couldn't find a solution. The way it is works, but the information cannot be maninpulated
+I kept getting a NoneType instead of a dictionary. Despite my efforts, I couldn't find a solution. The way it is works, but the information cannot be maninpulated
 as easily as it can in the other version.
