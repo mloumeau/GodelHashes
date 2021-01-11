@@ -34,13 +34,14 @@ def repOrNoRep(dict,x):
 
 newD={}
 for permLength in range(1,5):
-    for names in [c for c in repOrNoRep(d,True)]:   
+    for names in [c for c in repOrNoRep(d,False)]:  #True = with rep, False = without rep 
         newD[(''.join(list(map(lambda i:names[i],range(permLength)))))]=prod(list(map(lambda i:d[names[i]],range(permLength))))
 
 #Sorted has a keyword of 'key' as an arg. It allows to decide what you want sorted. 
 list(map(lambda x:print('{:16}'.format(x),'{:>6}'.format(newD[x])),dict(sorted(newD.items(),key=lambda x:x[1]))))
 stop = time.time()
 print(stop - start)
+
 
 """
 TIMES

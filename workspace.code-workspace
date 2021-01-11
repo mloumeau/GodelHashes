@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\Winter 2021\\CSE310\\helloWorld"
+		},
+		{
+			"name": "FunPython",
+			"path": "..\\FunPython"
+		},
+		{
+			"name": "API-Test",
+			"path": "..\\API-Test"
+		},
+		{
+			"name": "GodelHashes",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
