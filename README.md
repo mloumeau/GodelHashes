@@ -18,6 +18,6 @@ I kept getting a NoneType instead of a dictionary. Despite my efforts, I couldn'
 as easily as it can in the other version.
 
 Fixed - I have recently learned that when passing non-primitive data structures to functions, they are passed by reference, not value.  Therefore, there need not be a
-return for the data type to be updated, so long as it was passed into the function.  Because of this, the dictionary gets updated despite not having a return method.
-The fully-updated dictionary can now be accessed outside of its local function.
+return for the data type to be updated, so long as it was passed into the function.  Because of this, the dictionary gets updated despite not having a return method
+attached to it.  The fully-updated dictionary can now be accessed outside of its local function.
 
