@@ -1,4 +1,4 @@
-# GodelHashes
+# Godel Hashes
 
 By definition, a Godel Hash is when you take a symbol, char, or string, and convert it to a prime number.
 Once a collection of symbols, chars, or strings is produced, a Godel Hash converts each element into a unique prime number.  From there, the product is taken.
